@@ -16,7 +16,7 @@
     "prettier-check": "prettier --ignore-path .gitignore --write \"**.+(js|ts|json)\"",
     "prettier-fix": "prettier --write .",
     "lint-prettier": "npm run lint-check && npm run prettier-check",
-    "prisma:generate": "prisma generate",
+    "postinstall": "prisma generate",
     "logs:clean": "rimraf logs/*",
     "prestart": "mkdirp logs"
   },
