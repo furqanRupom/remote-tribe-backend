@@ -1,0 +1,1 @@
+export const jobsSearchableFields = ['title','companyName','companyLogo','location','type','salaryRange']
