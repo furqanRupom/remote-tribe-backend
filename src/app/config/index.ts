@@ -8,6 +8,7 @@ export const config = {
     db_url: process.env.DATABASE_URL,
     node_env:process.env.NODE_ENV,
     app_port: process.env.APP_PORT,
+    app_name: process.env.APP_NAME,
     app_host: process.env.APP_HOST,
     app_email: process.env.APP_EMAIL,
     app_pass: process.env.APP_PASS,
